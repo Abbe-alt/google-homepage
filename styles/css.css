@@ -118,7 +118,7 @@ margin: 5px;
 #footy {
 display: flex;
 color: black;
-position: absolute;
+position: fixed;
 font-family: sans-serif;
 bottom: 0;
 left: 0;
@@ -141,7 +141,7 @@ left: 85px;
 .Aboutt {
 position: relative;
 top: 14px;
-right: -26px;
+right: -33px;
 height: 6px;
 }
 .Business {
@@ -151,27 +151,27 @@ top: 14px;
 height: 6px;
 }
 .HowS {
-position: absolute;
-right: 1035px;
+position: relative;
+right: -92px;
 top: 14px;
 height: 6px;
 }
 .Privacy {
 position: relative;
-right: -979px;
+right: -866px;
 top: 14px;
 height: 6px;
 }
 .Terms {
 position: relative;
-right: -1005px;
+right: -893px;
 top: 14px;
 height: 6px;
 }
 
 .Settings {
 position: relative;
-right: -1165px;
+right: -1050px;
 top: 14px;
 height: 6px;
 }
