@@ -1,51 +1,55 @@
+ main {
+	  font-family: Arial, sans-serif;
+	  font-size: 13.5px;
+	  }
 .material-icons-outlined {
-position: relative;
-top: 14px;
-left: 860px;
+position: absolute;
+top: 19px;
+right: 118px;
 }
 .material-icons-outlined:hover {
 background-color: hsla(209, 100%, 50%, 0.13);
 }
 
 .signin {
-position: relative;
-left: 1000px;
-top: -19px;
+position: absolute;
+right: 18px;
+top: 15px;
 background-color: dodgerblue;
 color: white;
 width: 55px;
 padding-bottom: 8px;
-padding-left: 9px;
-padding-right: 5px;
-padding-top: 5px;
+padding-left: 10px;
+padding-right: 3.5px;
+padding-top: 7px;
 border-radius: 2px;
 margin-right: 9px;
 }
-
-.foogle {
-position: absolute;
-top: 150px;
-left: 440px;
-max-width: 279px;
-max-height: 96px;
-width: auto;
-}
 #searchbar { 
-position: relative;
-    max-width: 47%;
+position: absolute;
+    width: 48%;
 	height: 10%;
     min-width: 150px;
-right: -280px;
-top: 190px;
+right: 317px;
+top: 274px;
 }
+.foogle {
+position: absolute;
+bottom: 78px;
+left: 153px;
+width: 270px;
+height: 105px;
+}
+
 #searchbarr {
-border: 1px solid gray;
-border-radius: 19px;
+border: 1px solid  grey;
+border-radius: 29px;
 height: 46px;
-width: 500px;
+width: 584px;
 outline: 0;
 padding: 3px 23px 6px 42px;
-}#searchicon {
+}
+#searchicon {
 position: absolute;
 top: 9px;
 left: 113px;
@@ -60,35 +64,38 @@ top: 11px;
 left: 13px;
 cursor: pointer;
 }
-#button-bg {
-font-family: monospace;
-position: relative;
-left: 104px;
+#button-bgg {
+displayy: flex;
+justify-content: space-around;
+font-family: sans-serif;
+position: absolute;
+list-style-type: none;
+  margin: 0;
+  padding: 0;
+right: 0px;
 top: 43px;
 max-width: 257px;
-width: auto;
+
+}
+#button-bg {
+display: flex;
+justify-content: space-around;
+height: 52px;
+position: absolute;
+left: 133px;
+top: 68px;
+width: 309px;
 }
 
 #btton {
 background-color: D8E4F0;
 border: 1px;
+width: 180px;
 border-radius: 3px;
-padding: 10px 12px 11px 12px;
+margin: 8px;
+padding: 4px 6px 5px 6px;
 cursor: pointer;
 opacity: 0.9;
-}
-#btton1 {
-background-color: hD8E4F0;
-border-radius: 3px;
-border: 1px;
-margin-left: 9px;
-padding: 10px 12px 11px 12px;
-cursor: pointer;
-opacity: 0.9;
-}
-#btton1:hover {
-box-shadow: 1px 2px 6px grey;
-opacity: 1;
 }
 #btton:hover {
 box-shadow: 1px 2px 7px grey;
@@ -96,71 +103,76 @@ border: 3px;
 opacity: 1;
 }
 #links {
+display: flex;
+justify-content: space-between;
 text-decoration: none;
-position: relative;
-top: 2;
+position: absolute;
+top: 19px;
 margin-left: 5px;
-right: -850px;
+right: 158px;
 color: black;
 }
+#linkss {
+margin: 5px;
+}
 #footy {
+display: flex;
 color: black;
 position: absolute;
-font-family: ;
-display: flex;
+font-family: sans-serif;
 bottom: 0;
 left: 0;
 width: 100%;
-height: 38px;
+height: 41px;
 background-color: D8E4F0;
 }
 .About {
 position: absolute;
-top: 19px;
+top: 25px;
 left: 25px;
 width: 20px;
 }
 .Store {
 width: 25px;
 position: absolute;
-top: 19px;
+top: 25px;
 left: 85px;
 }
 .Aboutt {
 position: relative;
-top: 8px;
+top: 14px;
 right: -26px;
 height: 6px;
 }
 .Business {
 position: relative;
 right: -60px;
-top: 8px;
+top: 14px;
 height: 6px;
 }
 .HowS {
 position: absolute;
-right: 735px;
-top: 8px;
+right: 1035px;
+top: 14px;
 height: 6px;
 }
 .Privacy {
 position: relative;
-right: -690px;
-top: 8px;
+right: -979px;
+top: 14px;
 height: 6px;
 }
 .Terms {
 position: relative;
-right: -710px;
-top: 8px;
+right: -1005px;
+top: 14px;
 height: 6px;
 }
 
 .Settings {
 position: relative;
-right: -868px;
-top: 8px;
+right: -1165px;
+top: 14px;
 height: 6px;
 }
 a:link {
@@ -183,8 +195,8 @@ a:active {
 .counter { 
 	opacity: 1%;
 	}
-@media (min-width: 600px) {
-	
-
-
-}
+	 @media (min-width: 1900px) {
+	 .foogle {
+	 top: -113px;
+	 }
+	 }
