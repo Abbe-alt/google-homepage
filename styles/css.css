@@ -157,21 +157,21 @@ top: 14px;
 height: 6px;
 }
 .Privacy {
-position: relative;
-right: -866px;
+position: absolute;
+right: 174px;
 top: 14px;
 height: 6px;
 }
 .Terms {
-position: relative;
-right: -893px;
+position: absolute;
+right: 105px;
 top: 14px;
 height: 6px;
 }
 
 .Settings {
-position: relative;
-right: -1050px;
+position: absolute;
+right: 29px;
 top: 14px;
 height: 6px;
 }
@@ -200,3 +200,4 @@ a:active {
 	 top: -113px;
 	 }
 	 }
+	 </style>
